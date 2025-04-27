@@ -1,2 +1,2 @@
 # Missing closing parenthesis in a print statement
-print("Hello World"  # This will raise a SyntaxError
+# print("Hello World"  # This will raise a SyntaxError
