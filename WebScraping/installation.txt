@@ -1,0 +1,9 @@
+1. Installing BeautifulSoup
+First, you need to install BeautifulSoup and requests (for fetching web pages) in your Python environment. You can do this by running:
+pip install beautifulsoup4 requests
+
+2. Setting Up in VS Code
+If you are using VS Code, follow these steps to ensure it's properly set up:
+- Open VS Code.
+- Install the Python extension for VS Code if you haven't already.
+- Create a Python environment in your workspace if you are working with virtual environments (optional but recommended).

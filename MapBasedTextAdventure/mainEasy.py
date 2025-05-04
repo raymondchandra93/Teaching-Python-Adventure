@@ -37,6 +37,7 @@ def move(direction):
 
     if direction in game_map[player['location']]:
         player['location'] = game_map[player['location']][direction]
+        look(player['location'])
         
         # Win if the treasure has been acquired
         if player['location'] == 'cabin' and treasure_acquired:
@@ -44,7 +45,7 @@ def move(direction):
             game_over = True
             return
         
-        look(player['location'])
+
         
         if player['location'] == 'barn' and not treasure_acquired:
             print("You open the chest and collect the treasure. You should get the treasure back to the cabin!")
